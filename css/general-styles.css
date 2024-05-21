@@ -36,9 +36,13 @@ header {
   margin-right: 1em;
 }
 
+.video-container h1 {
+  font-size: 25px;
+}
+
 /* Main */
 main {
-  background-image: url("../img/Katedral_necklaces_900px.png");
+  background-image: url("../img/Katedral_necklaces_450px.png");
   background-repeat: no-repeat;
   /* background-size: cover; */
   background-position: center 0;
@@ -55,6 +59,7 @@ footer {
   flex-direction: row;
   gap: 1em;
   color: white;
+  position: sticky;
 }
 
 footer a {
