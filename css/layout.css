@@ -1,0 +1,13 @@
+.img-container-2 {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    grid-template-areas: 
+      'img1 img2'
+      'img3 img4';
+}
+
+.img-container-2 img {
+    max-width: 150px;
+}
