@@ -1,7 +1,6 @@
 /* Reset styles */
 body {
   background-color: #2f1a36;
-  /* background-image: url("../gloomyforecast-elements/Murstenpattern.svg"); */
   background-image: url("../img/Group\ 92.png");
   background-size: cover;
   background-position: center;
@@ -36,17 +35,9 @@ header {
   margin-right: 1em;
 }
 
-.video-container h1 {
-  font-size: 25px;
-}
-
 /* Main */
 main {
-  background-image: url("../img/Katedral_necklaces_450px.png");
-  background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-position: center 0;
-  height: 100vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -59,7 +50,6 @@ footer {
   flex-direction: row;
   gap: 1em;
   color: white;
-  position: sticky;
 }
 
 footer a {
