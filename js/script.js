@@ -13,6 +13,6 @@ updateImageBackground();
 window.addEventListener("resize", updateImageBackground);
 
 function toggleMenu() {
-  let mobileSiteMenu = document.getElementById("burger-menu-dropdown");
+  var mobileSiteMenu = document.getElementById("burger-menu-dropdown");
   mobileSiteMenu.classList.toggle("show");
 }
