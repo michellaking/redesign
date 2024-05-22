@@ -3,28 +3,3 @@ main {
   background-repeat: no-repeat;
   background-position: center 0;
 }
-
-#burger-menu-dropdown {
-  display: none;
-  position: absolute;
-  width: auto;
-  border-radius: 15px;
-  z-index: 1000;
-  background: #6733783e;
-  backdrop-filter: blur(2px);
-  margin-top: 10%;
-  padding: 10px;
-}
-
-#burger-menu-dropdown.show {
-  display: block;
-}
-
-#burger-menu-dropdown ul li a {
-  color: white;
-  text-decoration: none;
-}
-
-#burger-menu-dropdown ul li {
-  list-style: none;
-}
