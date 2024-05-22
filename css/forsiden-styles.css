@@ -3,3 +3,7 @@ main {
   background-repeat: no-repeat;
   background-position: center 0;
 }
+
+.hero {
+  margin-top: 1em;
+}
