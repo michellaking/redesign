@@ -46,6 +46,11 @@ header {
 main {
   height: 100%;
   width: 100%;
+  color: white;
+}
+
+h1 {
+  font-family: blackletter;
 }
 
 /* Footer styles */
@@ -62,4 +67,9 @@ footer {
 footer a {
   list-style: none;
   text-decoration: none;
+}
+
+@font-face {
+  font-family: blackletter;
+  src: url(../fonts/BlackletterExtrabold-51DV.ttf);
 }
