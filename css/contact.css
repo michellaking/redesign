@@ -1,0 +1,100 @@
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 140px;
+}
+
+h2 {
+    font-family: blackletter;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+}
+
+h3 {
+    font-family: grenze;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+li {
+    color: white;
+    font-family: poly;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+label, 
+input,
+button {
+    display: block;
+    margin-left: 40px;
+}
+
+label {
+    margin-top: 10px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    font-size: 18px;
+}
+
+input {
+  background-color:  #5f4275;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: poly;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+form {
+    margin-bottom: 80px;
+    width: 93%;
+}
+
+.form-felt-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.form-felt-2 {
+    display: grid;
+}
+
+.form-felt-3 {
+    display: grid;
+}
+
+input#number, input#name, input#email, input#comment {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+
+button {
+    font-family: poly;
+    padding: 7px 50px;
+    border-radius: 5px;
+    border: 0px;
+    display: inline-block;
+    background-color: rgba(69, 23, 114, 1);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+section {
+    width: 79%;
+}
+
+ol {
+    margin: 10px;
+}
