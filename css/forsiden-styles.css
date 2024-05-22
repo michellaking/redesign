@@ -10,8 +10,8 @@ main {
   width: auto;
   border-radius: 15px;
   z-index: 1000;
-  background: #39074364;
-  backdrop-filter: blur(15px);
+  background: #6733783e;
+  backdrop-filter: blur(2px);
   margin-top: 10%;
   padding: 10px;
 }
