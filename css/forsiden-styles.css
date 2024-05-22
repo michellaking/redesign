@@ -8,9 +8,12 @@ main {
   display: none;
   position: absolute;
   width: auto;
+  border-radius: 15px;
   z-index: 1000;
-  background: rgba(225, 225, 225, 0.1);
+  background: #39074364;
   backdrop-filter: blur(15px);
+  margin-top: 10%;
+  padding: 10px;
 }
 
 #burger-menu-dropdown.show {
