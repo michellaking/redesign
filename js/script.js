@@ -3,11 +3,16 @@ function updateImageBackground() {
   var viewportWidth = window.innerWidth;
 
   if (viewportWidth < 400) {
-    imgElement.style.backgroundImage = "url('path-to-small-image.jpg')";
+    imgElement.style.backgroundImage = "url('')";
   } else {
-    imgElement.style.backgroundImage = "url('path-to-large-image.jpg')";
+    imgElement.style.backgroundImage = "url('')";
   }
 }
 
 updateImageBackground();
 window.addEventListener("resize", updateImageBackground);
+
+function toggleMenu() {
+  let mobileSiteMenu = document.getElementById("burger-menu-dropdown");
+  mobileSiteMenu.classList.toggle("show");
+}

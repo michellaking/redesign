@@ -3,3 +3,15 @@ main {
   background-repeat: no-repeat;
   background-position: center 0;
 }
+
+#burger-menu-dropdown {
+  display: none;
+  position: absolute;
+  height: auto;
+  width: auto;
+  background-color: rgb(255, 0, 0);
+}
+
+#burger-menu-dropdown.show {
+  display: block;
+}
