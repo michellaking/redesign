@@ -2,10 +2,10 @@ function updateImageBackground() {
   var imgElement = document.querySelector("img");
   var viewportWidth = window.innerWidth;
 
-  if (viewportWidth < 400) {
+  if (viewportWidth < 450) {
     imgElement.style.backgroundImage = "url('')";
   } else {
-    imgElement.style.backgroundImage = "url('')";
+    imgElement.style.backgroundImage = "url('img/Katedral_necklaces_900px.png')";
   }
 }
 
