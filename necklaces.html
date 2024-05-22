@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/general-styles.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/media-queries.css" />
+    <link rel="stylesheet" href="css/forsiden-styles.css" />
+    <title>Necklaces</title>
+  </head>
+  <body>
+    <header>
+      <div id="navbar" class="navbar">
+        <div onclick="toggleMenu()">
+          <script
+            src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+            type="module"
+          ></script>
+          <dotlottie-player
+            src="https://lottie.host/3f85cece-7604-45e7-8c1f-cbbf64ab71ca/57IOvA05yF.json"
+            background="transparent"
+            speed="1"
+            style="width: 80px; height: 80px"
+            direction="1"
+            playMode="normal"
+            hover
+          >
+          </dotlottie-player>
+        </div>
+        <img src="SVG/logo.svg" alt="" />
+        <img src="SVG/shopping-chart.svg" alt="" />
+      </div>
+      <div id="burger-menu-dropdown">
+        <ul>
+          <li><a href="">Necklaces</a></li>
+          <li><a href="">Bracelets</a></li>
+          <li><a href="">Earrings</a></li>
+          <li><a href="">Contact & Care guide</a></li>
+        </ul>
+      </div>
+    </header>
+  </body>
+</html>
