@@ -53,6 +53,14 @@ h1 {
   font-family: blackletter;
 }
 
+h2 {
+  font-family: grenze;
+}
+
+p {
+  font-family: poly;
+}
+
 /* Footer styles */
 footer {
   height: 100px;
@@ -69,7 +77,17 @@ footer a {
   text-decoration: none;
 }
 
+
+/* Fonts */
 @font-face {
   font-family: blackletter;
   src: url(../fonts/BlackletterExtrabold-51DV.ttf);
+}
+@font-face {
+  font-family: grenze;
+  src: url(../fonts/Grenze-Regular.ttf);
+}
+@font-face {
+  font-family: poly;
+  src: url(../fonts/Poly-Regular.ttf);
 }
