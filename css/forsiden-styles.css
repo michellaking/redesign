@@ -7,9 +7,9 @@ main {
 #burger-menu-dropdown {
   display: none;
   position: absolute;
-  height: auto;
   width: auto;
   background-color: rgb(255, 0, 0);
+  z-index: 1000;
 }
 
 #burger-menu-dropdown.show {
