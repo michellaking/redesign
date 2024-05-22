@@ -8,10 +8,20 @@ main {
   display: none;
   position: absolute;
   width: auto;
-  background-color: rgb(255, 0, 0);
   z-index: 1000;
+  background: rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(15px);
 }
 
 #burger-menu-dropdown.show {
   display: block;
+}
+
+#burger-menu-dropdown ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#burger-menu-dropdown ul li {
+  list-style: none;
 }
