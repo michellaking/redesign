@@ -14,7 +14,9 @@ window.addEventListener("resize", updateImageBackground);
 
 function toggleMenu() {
   var mobileSiteMenu = document.getElementById("burger-menu-dropdown");
+  var burgerMenu = document.getElementById("burger-menu")
   mobileSiteMenu.classList.toggle("show");
+  burgerMenu.style.zIndex = "2000";
 }
 
 function alignTextInMain() {
@@ -28,3 +30,8 @@ function alignTextInMain() {
 }
 
 alignTextInMain();
+
+document.getElementById('burger-menu-button').addEventListener('click', function() {
+  var menu = document.getElementById('burger-menu-dropdown');
+  menu.classList.toggle('show');
+});
