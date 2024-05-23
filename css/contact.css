@@ -1,3 +1,13 @@
+body {
+    background-color: grey;
+    background-image: url(../img/background.png);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+
+
 h1 {
     text-transform: capitalize;
     text-align: center;
