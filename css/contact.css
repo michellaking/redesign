@@ -13,7 +13,7 @@ h1 {
     text-transform: capitalize;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -113,6 +113,8 @@ ol {
     margin: 10px;
 }
 
+
+
 @media (min-width: 100px) and (max-width: 799px)  {
 
 body {
@@ -129,7 +131,7 @@ h1 {
     text-transform: capitalize;
     text-align: center;
     font-size: 40px;
-    margin-bottom: 140px;
+    margin-bottom: 50px;
 }
 
 h2 {
@@ -222,7 +224,7 @@ button {
 }
 
 section {
-    width: 79%;
+   width: 153%; 
 }
 
 ol {
