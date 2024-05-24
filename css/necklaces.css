@@ -27,10 +27,11 @@
   body {
     background-image: url("/img/necklace_mobilesite.svg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     overflow-y: scroll;
     background-position: top center;
     margin: 2%;
+    background-attachment: scroll;
   }
   #burger-menu-dropdown {
     display: none;
@@ -203,13 +204,20 @@
   body {
     background-image: url(/img/Necklaces_forside_1450px.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     overflow-y: scroll;
     background-position: top center;
     margin: 2%;
+    background-attachment: scroll;
   }
 }
 /* Main */
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
 main {
   overflow-y: auto;
   width: 100%;
