@@ -47,7 +47,6 @@ button {
 
 label {
     margin-top: 10px;
-    color: white;
 }
 
 ::placeholder {
@@ -68,6 +67,10 @@ input {
 form {
     margin-bottom: 80px;
     width: 93%;
+}
+
+.contact-grid {
+    
 }
 
 .form-felt-1 {
