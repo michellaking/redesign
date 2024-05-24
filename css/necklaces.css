@@ -19,7 +19,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--primary-color);
-  background-image: url(../img/contact-background.png);
+  background-image: url(../img/brick_desktop.svg);
 }
 
 .navbar {
@@ -137,7 +137,7 @@ footer a {
 @media (min-width: 100px) and (max-width: 799px) {
   body {
     background-color: #2f1a36;
-    background-image: url(../img/contact-background.png);
+    background-image: url(../img/brick_mobile.svg);
     background-size: cover;
     background-position: center;
     background-attachment: scroll;
