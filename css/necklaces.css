@@ -133,6 +133,7 @@ footer a {
   font-family: poly;
   src: url(../fonts/Poly-Regular.ttf);
 }
+
 @media (min-width: 100px) and (max-width: 799px) {
   body {
     background-color: #2f1a36;
