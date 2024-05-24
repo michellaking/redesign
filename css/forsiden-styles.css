@@ -28,10 +28,11 @@ align-items: center;
   margin-top: 3em;
   font-size: 16px;
   cursor: pointer;
-  width: 160px;
+  width: 200px;
 }
 
 .buy-now-button p {
   font-family: grenze;
   font-size: 20px;
+  font-weight: bold;
 }
