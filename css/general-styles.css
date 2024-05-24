@@ -154,12 +154,22 @@ footer {
   flex-direction: row;
   gap: 1em;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 footer a {
-  list-style: none;
-  text-decoration: none;
+  color: white;            
+  text-decoration: none;   
+  font-family: poly;
+  font-size: 10px;
 }
+
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 
 /* Fonts */
 @font-face {
