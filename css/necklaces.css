@@ -1,3 +1,9 @@
+html {
+  --primary-color: #2f1a36;
+  --secondary-color: #5f4275;
+  --third-color: #ffffff;
+  --fourth-color: #000000;
+}
 body {
   margin: 0;
   padding: 0;
