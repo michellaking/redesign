@@ -141,7 +141,7 @@ footer a {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
   .img1 {
     grid-column: 2 / 3;
@@ -245,6 +245,15 @@ footer a {
   .img12 {
     grid-column: 3 / 4;
     grid-row: 6;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .img13 {
+    grid-column: 2 / 3;
+    grid-row: 7;
     width: 150px;
     height: 150px;
     justify-content: center;
