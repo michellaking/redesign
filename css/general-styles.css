@@ -149,17 +149,27 @@ p {
 footer {
   height: 100px;
   padding: 0;
-  background-color: #ffffff00;
+  background-color: #ffffff00; /* Transparent background */
   display: flex;
   flex-direction: row;
   gap: 1em;
   color: white;
+  align-items: center;
+  justify-content: center;
 }
 
 footer a {
-  list-style: none;
-  text-decoration: none;
+  color: white;             /* Set link color to white */
+  text-decoration: none;   /* Remove underline from links */
+  font-family: poly;
+  font-size: 10px;
 }
+
+/* Optional: Add hover effect to make it more user-friendly */
+footer a:hover {
+  text-decoration: underline; /* Underline links on hover */
+}
+
 
 /* Fonts */
 @font-face {
