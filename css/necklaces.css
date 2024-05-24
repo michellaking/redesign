@@ -75,11 +75,6 @@ header {
 #burger-menu-dropdown ul li a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
-html,
-body {
-  height: 100%;
-  overflow-y: auto;
-}
 
 main {
   overflow-y: auto;
