@@ -6,13 +6,13 @@ html {
   }
 
   body {
-    background-color: #2f1a36;
-    background-image: url("../img/contact-background.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    margin: 0;
-    padding: 0;
+  background-color: #2f1a36;
+  background-image: url(../img/contact-background.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  margin: 0;
+  padding: 0;
   }
 
   header {
