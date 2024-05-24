@@ -15,15 +15,7 @@ header {
   display: flex;
   flex-direction: row;
 }
-body {
-  background-color: #2f1a36;
-  background-image: url(../img/brick_mobile.svg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
-  margin: 0;
-  padding: 0;
-}
+
 
 .navbar {
   display: flex;
@@ -262,6 +254,7 @@ footer a {
   }
 }
 @media (min-width: 800px) and (max-width: 1450px) {
+
 }
 /* Main */
 /* Header styles */
