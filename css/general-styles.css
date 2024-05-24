@@ -6,16 +6,15 @@ html {
   --fourth-color: #000000;
 }
 
-
 body {
   background-color: #2f1a36;
-  background-image: url(../img/contact-background.png);
+  background-image: url(../img/brick_mobile.svg);
   background-size: cover;
   background-position: center;
   background-attachment: scroll;
   margin: 0;
   padding: 0;
-  }
+}
 
 /* Header styles */
 header {
@@ -159,17 +158,15 @@ footer {
 }
 
 footer a {
-  color: white;            
-  text-decoration: none;   
+  color: white;
+  text-decoration: none;
   font-family: poly;
   font-size: 10px;
 }
 
-
 footer a:hover {
   text-decoration: underline;
 }
-
 
 /* Fonts */
 @font-face {

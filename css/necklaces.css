@@ -16,7 +16,6 @@ header {
   flex-direction: row;
 }
 
-
 .navbar {
   display: flex;
   flex-direction: row;
@@ -254,7 +253,6 @@ footer a {
   }
 }
 @media (min-width: 800px) and (max-width: 1450px) {
-
 }
 /* Main */
 /* Header styles */
