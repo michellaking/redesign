@@ -36,3 +36,10 @@ document.getElementById('burger-menu-button').addEventListener('click', function
   var menu = document.getElementById('burger-menu-dropdown');
   menu.classList.toggle('show');
 });
+
+
+
+// TEST BG MENU
+// document.getElementById('burger-menu').addEventListener('click', function() {
+//   this.classList.toggle('open');
+// });
