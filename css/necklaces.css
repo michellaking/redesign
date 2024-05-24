@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: row;
     background-size: cover;
+    background: transparent;
   }
 
   .navbar {
@@ -22,18 +23,13 @@
 
   .navbar img {
     max-width: 50px;
-    margin-top: 1em;
-    margin-right: 1em;
   }
   body {
-    background-color: #2f1a36;
     background-image: url("/img/necklace_mobilesite.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
     background-size: cover;
+    overflow-y: scroll;
+    background-position: top center;
   }
   #burger-menu-dropdown {
     display: none;
@@ -206,18 +202,14 @@
   body {
     background-image: url(/img/Necklaces_forside_1450px.svg);
     background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: scroll;
-    margin: 0;
-    padding: 0;
-    background-position: center 0;
-    background-color: #2f1a36;
     background-size: cover;
+    overflow-y: scroll;
+    background-position: top center;
   }
 }
 /* Main */
 main {
-  height: 100%;
+  overflow-y: auto;
   width: 100%;
   color: white;
 }
@@ -237,7 +229,7 @@ p {
 footer {
   height: 100px;
   padding: 0;
-  background-color: #ffffff00;
+  background: transparent;
   display: flex;
   flex-direction: row;
   gap: 1em;
@@ -246,6 +238,11 @@ footer {
 footer a {
   list-style: none;
   text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
 }
 /* Fonts */
 @font-face {
