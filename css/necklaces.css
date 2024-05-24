@@ -16,10 +16,13 @@ header {
   flex-direction: row;
 }
 body {
+  background-color: #2f1a36;
+  background-image: url(../img/brick_mobile.svg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
   margin: 0;
   padding: 0;
-  background-color: var(--primary-color);
-  background-image: url(../img/brick_desktop.svg);
 }
 
 .navbar {
@@ -135,16 +138,6 @@ footer a {
 }
 
 @media (min-width: 100px) and (max-width: 799px) {
-  body {
-    background-color: #2f1a36;
-    background-image: url(../img/brick_mobile.svg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    margin: 0;
-    padding: 0;
-  }
-
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -260,15 +253,6 @@ footer a {
   }
 }
 @media (min-width: 800px) and (max-width: 1450px) {
-  body {
-    background-color: #2f1a36;
-    background-image: url(../img/contact-background.png);
-    background-size: cover;
-    background-position: center;
-    background-attachment: scroll;
-    margin: 0;
-    padding: 0;
-  }
 }
 /* Main */
 /* Header styles */
