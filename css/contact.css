@@ -79,7 +79,6 @@ form {
   max-width: 75%;
 }
 
-<<<<<<< HEAD
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,8 +86,6 @@ form {
   gap: 10px;
 }
 
-=======
->>>>>>> ac0241cbcd8dbabfb6e8d8a5234e8ea333ac724e
 .form-felt-1 {
   grid-column: 1 / span 2;
   grid-row: 1;
