@@ -61,10 +61,6 @@ form {
     width: 93%;
 }
 
-.contact-grid {
-
-}
-
 .form-felt-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -165,10 +161,6 @@ input {
 form {
     margin-bottom: 80px;
     width: 93%;
-}
-
-.contact-grid {
-
 }
 
 .form-felt-1 {
