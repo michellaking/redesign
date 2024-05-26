@@ -1,88 +1,210 @@
 h1 {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 
 h2 {
-    font-family: blackletter;
-    font-size: 35px;
-    color: white;
-    margin-left: 20px;
+  font-family: blackletter;
+  font-size: 35px;
+  color: white;
+  margin-left: 20px;
 }
 
 h3 {
-    font-family: grenze;
-    font-size: 24px;
-    color: white;
-    font-weight: lighter;
-    margin-left: 20px;
-    margin-bottom: 0px;
+  font-family: grenze;
+  font-size: 24px;
+  color: white;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-bottom: 0px;
 }
 
 li {
-    color: white;
-    font-family: poly;
-    line-height: 1.6;
-    font-size: 17px;
+  color: white;
+  font-family: poly;
+  line-height: 1.6;
+  font-size: 17px;
 }
 
-label, 
+label,
 input,
 button {
-    display: block;
-    margin-left: 40px;
+  display: block;
+  margin-left: 40px;
 }
 
 label {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 ::placeholder {
-    color: white;
-    font-size: 18px;
+  color: white;
+  font-size: 18px;
 }
 
 input {
-  background-color:  #5f4275;
+  background-color: #5f4275;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: poly;
   margin-bottom: 10px;
   border-radius: 5px;
   border: 0px;
+  width: 100%;
 }
 
 form {
-    margin-bottom: 80px;
-    width: 93%;
+  margin-bottom: 80px;
+  width: 100%;
+  max-width: 75%;
 }
 
 .contact-grid {
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
 }
 
 .form-felt-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column: 1 / span 2;
+  grid-row: 1;
 }
 
 .form-felt-2 {
-    display: grid;
+  grid-column: 3 / span 2;
+  grid-row: 1;
 }
 
 .form-felt-3 {
-    display: grid;
+  grid-column: 1 / 5;
+  grid-row: 2;
 }
 
-input#number, input#name, input#email, input#comment {
-    color: white;
-    font-size: 18px;
-    padding: 20px;
+.form-felt-4 {
+  grid-column: 1 / 5;
+  grid-row: 3;
+}
+
+input#number,
+input#name,
+input#email,
+input#comment {
+  color: white;
+  font-size: 18px;
+  /* padding: 20px; */
 }
 
 button {
+  font-family: poly;
+  padding: 7px 50px;
+  border-radius: 5px;
+  border: 0px;
+  display: inline-block;
+  background-color: rgba(69, 23, 114, 1);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+section {
+  width: 79%;
+}
+
+ol {
+  margin: 10px;
+}
+
+@media (min-width: 100px) and (max-width: 799px) {
+  h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+  }
+
+  h2 {
+    font-family: blackletter;
+    font-size: 35px;
+    color: white;
+    margin-left: 20px;
+  }
+
+  h3 {
+    font-family: grenze;
+    font-size: 24px;
+    color: white;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-bottom: 0px;
+  }
+
+  li {
+    color: white;
+    font-family: poly;
+    line-height: 1.6;
+    font-size: 17px;
+  }
+
+  label,
+  input,
+  button {
+    display: block;
+    margin-left: 40px;
+  }
+
+  label {
+    margin-top: 10px;
+  }
+
+  ::placeholder {
+    color: white;
+    font-size: 18px;
+  }
+
+  input {
+    background-color: #5f4275;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: poly;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+  }
+
+  form {
+    margin-bottom: 80px;
+    width: 93%;
+  }
+
+  .contact-grid {
+  }
+
+  .form-felt-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .form-felt-2 {
+    display: grid;
+  }
+
+  .form-felt-3 {
+    display: grid;
+  }
+
+  input#number,
+  input#name,
+  input#email,
+  input#comment {
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  button {
     font-family: poly;
     padding: 7px 50px;
     border-radius: 5px;
@@ -92,121 +214,13 @@ button {
     color: white;
     font-size: 18px;
     cursor: pointer;
-}
+  }
 
-section {
-    width: 79%;
-}
+  section {
+    width: 153%;
+  }
 
-ol {
+  ol {
     margin: 10px;
-}
-
-
-
-@media (min-width: 100px) and (max-width: 799px)  {
-
-h1 {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 50px;
-}
-
-h2 {
-    font-family: blackletter;
-    font-size: 35px;
-    color: white;
-    margin-left: 20px;
-}
-
-h3 {
-    font-family: grenze;
-    font-size: 24px;
-    color: white;
-    font-weight: lighter;
-    margin-left: 20px;
-    margin-bottom: 0px;
-}
-
-li {
-    color: white;
-    font-family: poly;
-    line-height: 1.6;
-    font-size: 17px;
-}
-
-label, 
-input,
-button {
-    display: block;
-    margin-left: 40px;
-}
-
-label {
-    margin-top: 10px;
-}
-
-::placeholder {
-    color: white;
-    font-size: 18px;
-}
-
-input {
-  background-color:  #5f4275;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: poly;
-  margin-bottom: 10px;
-  border-radius: 5px;
-  border: 0px;
-}
-
-form {
-    margin-bottom: 80px;
-    width: 93%;
-}
-
-.contact-grid {
-
-}
-
-.form-felt-1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-.form-felt-2 {
-    display: grid;
-}
-
-.form-felt-3 {
-    display: grid;
-}
-
-input#number, input#name, input#email, input#comment {
-    color: white;
-    font-size: 18px;
-    padding: 20px;
-}
-
-button {
-    font-family: poly;
-    padding: 7px 50px;
-    border-radius: 5px;
-    border: 0px;
-    display: inline-block;
-    background-color: rgba(69, 23, 114, 1);
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-section {
-   width: 153%; 
-}
-
-ol {
-    margin: 10px;
-}
+  }
 }
