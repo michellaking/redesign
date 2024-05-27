@@ -323,7 +323,7 @@ footer a {
   .img13 {
     width: 125px;
     height: 150%;
-    object-fit: contain;
+    object-fit: cover;
   }
   button {
     font-family: blackletter;
