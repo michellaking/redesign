@@ -132,7 +132,6 @@ html {
       color: white;
     }
 
-
     .products {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -227,6 +226,12 @@ html {
       padding: 1px 13px;
       width: 91%;
       height: 17%;
+      transition-duration: 0.4s;
+    }
+    
+    button:hover {
+      background-color: #451772; /* Green */
+      color: white;
     }
   
     span {
