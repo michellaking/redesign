@@ -6,6 +6,10 @@ html {
   --fourth-color: #000000;
 }
 
+.logo {
+  max-width: 50px;
+}
+
 body {
   background-color: #2f1a36;
   background-image: url(../img/brick_mobile.svg);
