@@ -24,7 +24,6 @@ function alignTextInMain() {
   const mainDiv = document.querySelector('main');
   mainDiv.style.textAlign = 'center';
   mainDiv.style.margin = '0 auto';
-  mainDiv.style.width = '400px';
   mainDiv.style.backgroundSize = 'cover';
   mainDiv.style.backgroundRepeat = 'no-repeat';
   mainDiv.style.backgroundPosition = 'center';
