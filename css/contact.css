@@ -184,7 +184,6 @@ ol {
 
   .form-felt-1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
   .form-felt-2 {
@@ -201,7 +200,6 @@ ol {
   input#comment {
     color: white;
     font-size: 18px;
-    padding: 20px;
   }
 
   button {
