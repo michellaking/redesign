@@ -1,0 +1,365 @@
+html {
+  --primary-color: #2f1a36;
+  --secondary-color: #5f4275;
+  --third-color: #ffffff;
+  --fourth-color: #000000;
+}
+
+/* Header styles */
+header {
+  background-color: #ffffff00;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  max-width: 80px;
+  margin-top: 18em;
+  margin-right: -13em;
+}
+
+.cart {
+  max-width: 100px;
+  margin-top: 18em;
+  margin-right: 14em;
+}
+
+#burger-menu-dropdown {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 400px;
+  border-radius: 15px;
+  z-index: 1000;
+  background: #6733783e;
+  backdrop-filter: blur(2px);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 0;
+}
+
+#burger-menu-dropdown.show {
+  display: flex;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#burger-menu-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#burger-menu-dropdown ul li {
+  margin: 10px 0;
+}
+
+#burger-menu-dropdown ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: grenze;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+#burger-menu-dropdown ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+/* Main */
+main {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+h1 {
+  font-family: blackletter;
+}
+
+/* Footer styles */
+footer {
+  height: 15px;
+  padding: 0;
+  background-color: #ffffff00;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  color: white;
+}
+
+footer a {
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: blackletter;
+  src: url(../fonts/BlackletterExtrabold-51DV.ttf);
+}
+
+/* ----------------- */
+/* BG: */
+body {
+  background-image: url("/SVG/svg_earrings/Earringsbg_1450px.svg");
+  background-size: cover;
+  background-attachment: scroll;
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 177%;
+}
+/* ----------------- */
+
+/* ----------------- */
+/* VARER: */
+.img-container-earrings {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-container-earrings img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.earrings1 {
+  margin: 0;
+  position: absolute;
+  top: 140px;
+  width: 150px;
+  right: -75px;
+}
+
+.earrings2 {
+  margin: 0;
+  position: absolute;
+  top: 610px;
+  width: 280px;
+  right: 265px;
+}
+
+.earrings3 {
+  margin: 0;
+  position: absolute;
+  top: 570px;
+  width: 350px;
+  left: -170px;
+}
+
+.earrings4 {
+  margin: 0;
+  position: absolute;
+  top: 590px;
+  width: 320px;
+  left: 245px;
+}
+
+.earrings5 {
+  margin: 0;
+  position: absolute;
+  top: 1030px;
+  width: 350px;
+  right: 230px;
+}
+
+.earrings6 {
+  margin: 0;
+  position: absolute;
+  top: 1035px;
+  width: 350px;
+  right: -175px;
+}
+
+.earrings7 {
+  margin: 0;
+  position: absolute;
+  top: 1050px;
+  width: 350px;
+  left: 228px;
+}
+
+.earrings8 {
+  margin: 0;
+  position: absolute;
+  top: 1530px;
+  width: 350px;
+  right: 225px;
+}
+
+.earrings9 {
+  margin: 0;
+  position: absolute;
+  top: 1550px;
+  width: 320px;
+  right: -160px;
+}
+
+.earrings10 {
+  margin: 0;
+  position: absolute;
+  top: 1550px;
+  width: 350px;
+  left: 230px;
+}
+/* ----------------- */
+
+/* TEKST: */
+.earringsh1 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  top: 200px;
+  font-size: 80px;
+  left: 760px;
+}
+/* ----------------- */
+
+/* KNAP: */
+.image-button1,
+.image-button2,
+.image-button3,
+.image-button4,
+.image-button5,
+.image-button6,
+.image-button7,
+.image-button8,
+.image-button9,
+.image-button10 {
+  position: absolute;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.image-button1 img,
+.image-button2 img,
+.image-button3 img,
+.image-button4 img,
+.image-button5 img,
+.image-button6 img,
+.image-button7 img,
+.image-button8 img,
+.image-button9 img,
+.image-button10 img {
+  display: block;
+  width: 275px;
+}
+
+.image-button1:focus,
+.image-button1:hover,
+.image-button2:focus,
+.image-button2:hover,
+.image-button3:focus,
+.image-button3:hover,
+.image-button4:focus,
+.image-button4:hover,
+.image-button5:focus,
+.image-button5:hover,
+.image-button6:focus,
+.image-button6:hover,
+.image-button7:focus,
+.image-button7:hover,
+.image-button8:focus,
+.image-button8:hover,
+.image-button9:focus,
+.image-button9:hover,
+.image-button10:focus,
+.image-button10:hover {
+  transform: scale(1.05); /* Slightly increase the size */
+  opacity: 0.5;
+}
+
+.image-button1 {
+  top: 108%; /* Adjust this value to move the button vertically */
+  right: 609px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button2 {
+  top: 164%; /* Adjust this value to move the button vertically */
+  right: 1000px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button3 {
+  top: 164%; /* Adjust this value to move the button vertically */
+  right: 610px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button4 {
+  top: 164%; /* Adjust this value to move the button vertically */
+  right: 220px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button5 {
+  top: 220%; /* Adjust this value to move the button vertically */
+  right: 1000px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button6 {
+  top: 220%; /* Adjust this value to move the button vertically */
+  right: 610px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button7 {
+  top: 220%; /* Adjust this value to move the button vertically */
+  right: 220px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button8 {
+  top: 278%; /* Adjust this value to move the button vertically */
+  right: 1000px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button9 {
+  top: 278%; /* Adjust this value to move the button vertically */
+  right: 610px; /* Adjust this value to move the button horizontally */
+}
+
+.image-button10 {
+  top: 278%; /* Adjust this value to move the button vertically */
+  right: 220px; /* Adjust this value to move the button horizontally */
+}
+/* ------------ */
