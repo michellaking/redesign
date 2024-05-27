@@ -5,7 +5,6 @@ html {
   --fourth-color: #000000;
 }
 
-/* Header styles */
 header {
   background-color: #ffffff00;
   margin-right: 10px;
@@ -25,18 +24,11 @@ header {
   width: 100%;
 }
 
-.logo {
-  max-width: 80px;
-  margin-top: 18em;
-  margin-right: -13em;
+.navbar img {
+  max-width: 50px;
+  margin-top: 1em;
+  margin-right: 1em;
 }
-
-.cart {
-  max-width: 100px;
-  margin-top: 18em;
-  margin-right: 14em;
-}
-
 #burger-menu-dropdown {
   display: none;
   flex-direction: column;
@@ -90,15 +82,8 @@ header {
 #burger-menu-dropdown ul li a:hover {
   background: rgba(255, 255, 255, 0.2);
 }
-.products {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-}
 
-/* Main */
 main {
-  height: 100%;
   width: 100%;
   color: white;
 }
@@ -107,259 +92,271 @@ h1 {
   font-family: blackletter;
 }
 
+h2 {
+  font-family: grenze;
+}
+
+p {
+  font-family: poly;
+}
+
 /* Footer styles */
 footer {
-  height: 15px;
+  height: 100px;
   padding: 0;
-  background-color: #ffffff00;
+  background: transparent;
   display: flex;
   flex-direction: row;
   gap: 1em;
   color: white;
 }
-
 footer a {
   list-style: none;
   text-decoration: none;
 }
-
+/* Fonts */
 @font-face {
   font-family: blackletter;
   src: url(../fonts/BlackletterExtrabold-51DV.ttf);
 }
-
-/* ----------------- */
-/* BG: */
-body {
-  background-image: url("/SVG/svg_earrings/Earringsbg_1450px.svg");
-  background-size: cover;
-  background-attachment: scroll;
-  margin: 0;
-  padding: 0;
-  background-repeat: no-repeat;
+@font-face {
+  font-family: grenze;
+  src: url(../fonts/Grenze-Regular.ttf);
+}
+@font-face {
+  font-family: poly;
+  src: url(../fonts/Poly-Regular.ttf);
 }
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  height: 177%;
+@media (min-width: 100px) and (max-width: 800px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .product-item1 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .product-item2 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+  }
+  .product-item3 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+  .product-item4 {
+    grid-column: 3 / 4;
+    grid-row: 2;
+  }
+  .product-item5 {
+    grid-column: 2 / 3;
+    grid-row: 3;
+  }
+  .product-item6 {
+    grid-column: 3 / 4;
+    grid-row: 3;
+  }
+  .product-item7 {
+    grid-column: 2 / 3;
+    grid-row: 4;
+  }
+  .product-item8 {
+    grid-column: 3 / 4;
+    grid-row: 4;
+  }
+  .product-item9 {
+    grid-column: 2 / 3;
+    grid-row: 5;
+  }
+  .product-item10 {
+    grid-column: 3 / 4;
+    grid-row: 5;
+  }
+  .product-item11 {
+    grid-column: 2 / 3;
+    grid-row: 6;
+  }
+  .product-item12 {
+    grid-column: 3 / 4;
+    grid-row: 6;
+  }
+  .product-item13 {
+    grid-column: 2 / 3;
+    grid-row: 7;
+  }
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
+  .img13 {
+    width: 125px;
+    height: 150%;
+    object-fit: cover;
+  }
+  button {
+    font-family: blackletter;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    padding: 1px 13px;
+    width: 91%;
+    height: 17%;
+    border-radius: 15%;
+  }
+  .img4_2 {
+    display: none;
+  }
+  span {
+    display: inline-block;
+  }
+  .font-1 {
+    font-family: blackletter;
+    font-size: 11px;
+  }
+  .font-2 {
+    font-family: poly;
+    font-size: 8px;
+  }
 }
-/* ----------------- */
-
-/* ----------------- */
-/* VARER: */
-.img-container-earrings {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-wrap: wrap;
+@media (min-width: 800px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
+  }
+  .product-item1 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .product-item2 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+  .product-item3 {
+    grid-column: 3 /4;
+    grid-row: 2;
+  }
+  .product-item4 {
+    grid-column: 4 / 5;
+    grid-row: 2;
+  }
+  .product-item5 {
+    grid-column: 2 / 3;
+    grid-row: 3;
+  }
+  .product-item6 {
+    grid-column: 3 / 4;
+    grid-row: 3;
+  }
+  .product-item7 {
+    grid-column: 4 / 5;
+    grid-row: 3;
+  }
+  .product-item8 {
+    grid-column: 2 / 3;
+    grid-row: 4;
+  }
+  .product-item9 {
+    grid-column: 3 / 4;
+    grid-row: 4;
+  }
+  .product-item10 {
+    grid-column: 4 / 5;
+    grid-row: 4;
+  }
+  .product-item11 {
+    grid-column: 2 / 3;
+    grid-row: 5;
+  }
+  .product-item12 {
+    grid-column: 3 / 4;
+    grid-row: 5;
+  }
+  .product-item13 {
+    grid-column: 4 / 5;
+    grid-row: 5;
+  }
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4_2,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
+  .img13 {
+    width: 150px;
+    height: 175%;
+    object-fit: cover;
+  }
+  button {
+    font-family: blackletter;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    padding: 1px 13px;
+    width: 91%;
+    height: 17%;
+  }
+  .img4 {
+    display: none;
+  }
+  span {
+    display: inline-block;
+  }
+  .font-1 {
+    font-family: blackletter;
+    font-size: 11px;
+  }
+  .font-2 {
+    font-family: poly;
+    font-size: 8px;
+  }
 }
-
-.img-container-earrings img {
-  max-width: 500px;
-  max-height: 500px;
-}
-
-.earrings1 {
-  margin: 0;
-  position: absolute;
-  top: 140px;
-  width: 150px;
-  right: -75px;
-}
-
-.earrings2 {
-  margin: 0;
-  position: absolute;
-  top: 610px;
-  width: 280px;
-  right: 265px;
-}
-
-.earrings3 {
-  margin: 0;
-  position: absolute;
-  top: 570px;
-  width: 350px;
-  left: -170px;
-}
-
-.earrings4 {
-  margin: 0;
-  position: absolute;
-  top: 590px;
-  width: 320px;
-  left: 245px;
-}
-
-.earrings5 {
-  margin: 0;
-  position: absolute;
-  top: 1030px;
-  width: 350px;
-  right: 230px;
-}
-
-.earrings6 {
-  margin: 0;
-  position: absolute;
-  top: 1035px;
-  width: 350px;
-  right: -175px;
-}
-
-.earrings7 {
-  margin: 0;
-  position: absolute;
-  top: 1050px;
-  width: 350px;
-  left: 228px;
-}
-
-.earrings8 {
-  margin: 0;
-  position: absolute;
-  top: 1530px;
-  width: 350px;
-  right: 225px;
-}
-
-.earrings9 {
-  margin: 0;
-  position: absolute;
-  top: 1550px;
-  width: 320px;
-  right: -160px;
-}
-
-.earrings10 {
-  margin: 0;
-  position: absolute;
-  top: 1550px;
-  width: 350px;
-  left: 230px;
-}
-/* ----------------- */
-
-/* TEKST: */
-.earringsh1 {
-  position: absolute;
-  transform: translate(-50%, -50%);
-  display: flex;
-  flex-wrap: wrap;
-  top: 200px;
-  font-size: 80px;
-  left: 760px;
-}
-/* ----------------- */
-
-/* KNAP: */
-.image-button1,
-.image-button2,
-.image-button3,
-.image-button4,
-.image-button5,
-.image-button6,
-.image-button7,
-.image-button8,
-.image-button9,
-.image-button10 {
-  position: absolute;
-  border: none;
-  background: none;
-  padding: 0;
-  cursor: pointer;
-  text-decoration: none;
-}
-
-.image-button1 img,
-.image-button2 img,
-.image-button3 img,
-.image-button4 img,
-.image-button5 img,
-.image-button6 img,
-.image-button7 img,
-.image-button8 img,
-.image-button9 img,
-.image-button10 img {
-  display: block;
-  width: 275px;
-}
-
-.image-button1:focus,
-.image-button1:hover,
-.image-button2:focus,
-.image-button2:hover,
-.image-button3:focus,
-.image-button3:hover,
-.image-button4:focus,
-.image-button4:hover,
-.image-button5:focus,
-.image-button5:hover,
-.image-button6:focus,
-.image-button6:hover,
-.image-button7:focus,
-.image-button7:hover,
-.image-button8:focus,
-.image-button8:hover,
-.image-button9:focus,
-.image-button9:hover,
-.image-button10:focus,
-.image-button10:hover {
-  transform: scale(1.05); /* Slightly increase the size */
-  opacity: 0.5;
-}
-
-.image-button1 {
-  top: 108%; /* Adjust this value to move the button vertically */
-  right: 609px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button2 {
-  top: 164%; /* Adjust this value to move the button vertically */
-  right: 1000px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button3 {
-  top: 164%; /* Adjust this value to move the button vertically */
-  right: 610px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button4 {
-  top: 164%; /* Adjust this value to move the button vertically */
-  right: 220px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button5 {
-  top: 220%; /* Adjust this value to move the button vertically */
-  right: 1000px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button6 {
-  top: 220%; /* Adjust this value to move the button vertically */
-  right: 610px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button7 {
-  top: 220%; /* Adjust this value to move the button vertically */
-  right: 220px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button8 {
-  top: 278%; /* Adjust this value to move the button vertically */
-  right: 1000px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button9 {
-  top: 278%; /* Adjust this value to move the button vertically */
-  right: 610px; /* Adjust this value to move the button horizontally */
-}
-
-.image-button10 {
-  top: 278%; /* Adjust this value to move the button vertically */
-  right: 220px; /* Adjust this value to move the button horizontally */
-}
-/* ------------ */
