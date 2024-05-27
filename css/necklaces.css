@@ -227,6 +227,7 @@ footer a {
     padding: 1px 13px;
     width: 91%;
     height: 17%;
+    border-radius: 15%;
   }
   .img4_2 {
     display: none;
