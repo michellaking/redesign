@@ -1,7 +1,37 @@
 #hero {
   width: 100%;
 }
-
+.first {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.mvindue1 {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  width: 75%;
+}
+.mvindue2 {
+  grid-column: 5 / 6;
+  grid-row: 1;
+  width: 75%;
+}
+.bracelet_fp {
+  grid-column: 2 / 3;
+  grid-row: 3;
+  object-fit: contain;
+}
+.necklace_fp {
+  grid-column: 3 / 4;
+  grid-row: 2 / span 2;
+}
+.earring_fp {
+  grid-column: 4 / 5;
+  grid-row: 3;
+}
+img {
+  max-width: 100%;
+}
 video {
   max-width: 100%;
 }
