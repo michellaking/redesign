@@ -84,7 +84,6 @@ header {
 }
 
 main {
-  overflow-y: auto;
   width: 100%;
   color: white;
 }
@@ -261,79 +260,95 @@ footer a {
   .img1 {
     grid-column: 3;
     grid-row: 1;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img2 {
     grid-column: 2 / 3;
     grid-row: 2;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img3 {
     grid-column: 3 /4;
     grid-row: 2;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img4 {
     grid-column: 4 / 5;
     grid-row: 2;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img5 {
     grid-column: 2 / 3;
     grid-row: 3;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img6 {
     grid-column: 3 / 4;
     grid-row: 3;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img7 {
     grid-column: 4 / 5;
     grid-row: 3;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img8 {
     grid-column: 2 / 3;
     grid-row: 4;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img9 {
     grid-column: 3 / 4;
     grid-row: 4;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img10 {
     grid-column: 4 / 5;
     grid-row: 4;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img11 {
     grid-column: 2 / 3;
     grid-row: 5;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img12 {
     grid-column: 3 / 4;
     grid-row: 5;
-    width: 150px;
+    width: 125px;
     height: 150px;
   }
   .img13 {
     grid-column: 4 / 5;
     grid-row: 5;
-    width: 150px;
+    width: 125px;
     height: 150px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
+  .img13 {
+    object-fit: contain;
+    padding: 2px;
   }
 }
