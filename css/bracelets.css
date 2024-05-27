@@ -1,159 +1,158 @@
 html {
-    --primary-color: #2f1a36;
-    --secondary-color: #5f4275;
-    --third-color: #ffffff;
-    --fourth-color: #000000;
-  }
+  --primary-color: #2f1a36;
+  --secondary-color: #5f4275;
+  --third-color: #ffffff;
+  --fourth-color: #000000;
+}
 
-  header {
-    background-color: #ffffff00;
-    margin-right: 10px;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-  }
-  
-  .navbar img {
-    max-width: 50px;
-    margin-top: 1em;
-    margin-right: 1em;
-  }
+header {
+  background-color: #ffffff00;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
 
-  #burger-menu-dropdown {
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 0;
-    left: 100px;
-    transform: translateX(-50%);
-    width: auto;
-    max-width: 400px;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar img {
+  max-width: 50px;
+  margin-top: 1em;
+  margin-right: 1em;
+}
+
+#burger-menu-dropdown {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 100px;
+  transform: translateX(-50%);
+  width: auto;
+  max-width: 400px;
+  border-radius: 15px;
+  z-index: 1000;
+  background: #6733783e;
+  backdrop-filter: blur(2px);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  opacity: 0;
+}
+
+#burger-menu-dropdown.show {
+  display: flex;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+#burger-menu-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#burger-menu-dropdown ul li {
+  margin: 10px 0;
+}
+
+#burger-menu-dropdown ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: grenze;
+  display: block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+#burger-menu-dropdown ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+footer {
+  height: 100px;
+  padding: 0;
+  background-color: #ffffff00;
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  color: white;
+}
+
+footer a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.bracelets img {
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+}
+
+@media (min-width: 100px) and (max-width: 799px) {
+  button {
+    font-family: blackletter;
     border-radius: 15px;
-    z-index: 1000;
-    background: #6733783e;
-    backdrop-filter: blur(2px);
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
-    opacity: 0;
-  }
-  
-  #burger-menu-dropdown.show {
-    display: flex;
-    opacity: 1;
-    transform: translateX(-50%) translateY(0);
-  }
-  
-  #burger-menu-dropdown ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    margin-top: 20px;
-    width: 100%;
-  }
-  
-  #burger-menu-dropdown ul li {
-    margin: 10px 0;
-  }
-  
-  #burger-menu-dropdown ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    font-family: grenze;
-    display: block;
-    padding: 10px 20px;
-    border-radius: 10px;
-    transition: background 0.3s ease-in-out;
-  }
-  
-  #burger-menu-dropdown ul li a:hover {
-    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    padding: 1px 13px;
+    width: 91%;
+    height: 15%;
+    transition-duration: 0.4s;
   }
 
-  footer {
-    height: 100px;
-    padding: 0;
-    background-color: #ffffff00;
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
+  button:hover {
+    background-color: #451772; /* Green */
     color: white;
   }
-  
-  footer a {
-    list-style: none;
-    text-decoration: none;
+
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .product-item1 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+  }
+  .product-item2 {
+    grid-column: 3 / 4;
+    grid-row: 1;
+  }
+  .product-item3 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+  .product-item4 {
+    grid-column: 3 / 4;
+    grid-row: 2;
   }
 
-  .bracelets img {
-    width: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
-  }
-
-  
-  @media (min-width: 100px) and (max-width: 799px) {
-    button {
-      font-family: blackletter;
-      border-radius: 15px;
-      border: none;
-      background-color: var(--secondary-color);
-      color: var(--third-color);
-      font-size: 13px;
-      cursor: pointer;
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translate(-50%);
-      z-index: 1;
-      padding: 1px 13px;
-      width: 91%;
-      height: 17%;
-      transition-duration: 0.4s;
-    }
-    
-    button:hover {
-      background-color: #451772; /* Green */
-      color: white;
-    }
-
-    .products {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-    }
-    .product-item1 {
-      grid-column: 2 / 3;
-      grid-row: 1;
-    }
-    .product-item2 {
-      grid-column: 3 / 4;
-      grid-row: 1;
-    }
-    .product-item3 {
-      grid-column: 2 / 3;
-      grid-row: 2;
-    }
-    .product-item4 {
-      grid-column: 3 / 4;
-      grid-row: 2;
-    }
-  
   span {
     display: inline-block;
   }
@@ -174,75 +173,74 @@ html {
     align-items: center;
     padding: 3px;
   }
+}
+
+@media (min-width: 800px) {
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2px;
+  }
+  .product-item1 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .product-item2 {
+    grid-column: 2 / 3;
+    grid-row: 2;
+  }
+  .product-item3 {
+    grid-column: 3 /4;
+    grid-row: 2;
+  }
+  .product-item4 {
+    grid-column: 4 / 5;
+    grid-row: 2;
   }
 
-  @media (min-width: 800px) {
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
 
-    .products {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-      gap: 2px;
-    }
-    .product-item1 {
-      grid-column: 3;
-      grid-row: 1;
-    }
-    .product-item2 {
-      grid-column: 2 / 3;
-      grid-row: 2;
-    }
-    .product-item3 {
-      grid-column: 3 /4;
-      grid-row: 2;
-    }
-    .product-item4 {
-      grid-column: 4 / 5;
-      grid-row: 2;
-    }
+  button {
+    font-family: blackletter;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    padding: 1px 13px;
+    width: 91%;
+    height: 17%;
+    transition-duration: 0.4s;
+  }
 
-    .product-item {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 3px;
-    }
+  button:hover {
+    background-color: #451772; /* Green */
+    color: white;
+  }
 
-    button {
-      font-family: blackletter;
-      border-radius: 15px;
-      border: none;
-      background-color: var(--secondary-color);
-      color: var(--third-color);
-      font-size: 13px;
-      cursor: pointer;
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translate(-50%);
-      z-index: 1;
-      padding: 1px 13px;
-      width: 91%;
-      height: 17%;
-      transition-duration: 0.4s;
-    }
-    
-    button:hover {
-      background-color: #451772; /* Green */
-      color: white;
-    }
-  
-    span {
-      display: inline-block;
-    }
-    .font-1 {
-      font-family: blackletter;
-      font-size: 11px;
-    }
-    .font-2 {
-      font-family: poly;
-      font-size: 8px;
-    }
-   }
+  span {
+    display: inline-block;
+  }
+  .font-1 {
+    font-family: blackletter;
+    font-size: 11px;
+  }
+  .font-2 {
+    font-family: poly;
+    font-size: 8px;
+  }
+}
