@@ -128,7 +128,7 @@ footer a {
   src: url(../fonts/Poly-Regular.ttf);
 }
 
-@media (min-width: 100px) and (max-width: 799px) {
+@media (min-width: 100px) and (max-width: 800px) {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -227,6 +227,7 @@ footer a {
     padding: 1px 13px;
     width: 91%;
     height: 17%;
+    border-radius: 15%;
   }
   .img4_2 {
     display: none;
