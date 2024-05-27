@@ -14,7 +14,7 @@ window.addEventListener("resize", updateImageBackground);
 
 function toggleMenu() {
   var mobileSiteMenu = document.getElementById("burger-menu-dropdown");
-  var burgerMenu = document.getElementById("burger-menu")
+  var burgerMenu = document.getElementById("burger-menu");
   mobileSiteMenu.classList.toggle("show");
   burgerMenu.style.zIndex = "2000"; // fungerer kun på forsiden men ikke på alle de andre sider ??? Lidt hjælp? / massimo
 }
