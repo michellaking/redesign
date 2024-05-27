@@ -1,13 +1,15 @@
-
-.hero {
-  margin-top: 1em;
+#hero {
+  width: 100%;
 }
 
+video {
+  max-width: 100%;
+}
 .button-container {
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buy-now-button {

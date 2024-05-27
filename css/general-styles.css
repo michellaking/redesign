@@ -125,6 +125,27 @@ header {
   background: rgba(255, 255, 255, 0.2);
 }
 
+.links {
+  display: none;
+}
+
+.links ul {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  color: white;
+}
+
+.links ul li {
+  list-style-type: none;
+}
+
+.links ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: grenze;
+}
+
 /* Main */
 main {
   height: 100%;

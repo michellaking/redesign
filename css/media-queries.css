@@ -1,1 +1,9 @@
-/* Devices with width from 450px to 1450px */
+@media screen and (min-width: 800px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .links {
+        display: block;
+    }
+}

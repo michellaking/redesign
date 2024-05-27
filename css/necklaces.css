@@ -84,7 +84,6 @@ header {
 }
 
 main {
-  overflow-y: auto;
   width: 100%;
   color: white;
 }
@@ -100,6 +99,7 @@ h2 {
 p {
   font-family: poly;
 }
+
 /* Footer styles */
 footer {
   height: 100px;
@@ -128,212 +128,235 @@ footer a {
   src: url(../fonts/Poly-Regular.ttf);
 }
 
-@media (min-width: 100px) and (max-width: 799px) {
+@media (min-width: 100px) and (max-width: 800px) {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
-  .img1 {
+  .product-item1 {
     grid-column: 2 / 3;
     grid-row: 1;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img2 {
+  .product-item2 {
     grid-column: 3 / 4;
     grid-row: 1;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img3 {
+  .product-item3 {
     grid-column: 2 / 3;
     grid-row: 2;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img4 {
+  .product-item4 {
     grid-column: 3 / 4;
     grid-row: 2;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img5 {
+  .product-item5 {
     grid-column: 2 / 3;
     grid-row: 3;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img6 {
+  .product-item6 {
     grid-column: 3 / 4;
     grid-row: 3;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img7 {
+  .product-item7 {
     grid-column: 2 / 3;
     grid-row: 4;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img8 {
+  .product-item8 {
     grid-column: 3 / 4;
     grid-row: 4;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img9 {
+  .product-item9 {
     grid-column: 2 / 3;
     grid-row: 5;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img10 {
+  .product-item10 {
     grid-column: 3 / 4;
     grid-row: 5;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img11 {
+  .product-item11 {
     grid-column: 2 / 3;
     grid-row: 6;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img12 {
+  .product-item12 {
     grid-column: 3 / 4;
     grid-row: 6;
-    width: 150px;
-    height: 150px;
-    justify-content: center;
-    align-items: center;
-    padding: 3px;
   }
-  .img13 {
+  .product-item13 {
     grid-column: 2 / 3;
     grid-row: 7;
-    width: 150px;
-    height: 150px;
+  }
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 3px;
   }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
+  .img13 {
+    width: 125px;
+    height: 150%;
+    object-fit: cover;
+  }
+  button {
+    font-family: blackletter;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    padding: 1px 13px;
+    width: 91%;
+    height: 17%;
+    border-radius: 15%;
+  }
+  .img4_2 {
+    display: none;
+  }
+  span {
+    display: inline-block;
+  }
+  .font-1 {
+    font-family: blackletter;
+    font-size: 11px;
+  }
+  .font-2 {
+    font-family: poly;
+    font-size: 8px;
+  }
 }
-@media (min-width: 800px) and (max-width: 1450px) {
+@media (min-width: 800px) {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 2px;
   }
-  .img1 {
+  .product-item1 {
     grid-column: 3;
     grid-row: 1;
-    width: 150px;
-    height: 150px;
   }
-  .img2 {
+  .product-item2 {
     grid-column: 2 / 3;
     grid-row: 2;
-    width: 150px;
-    height: 150px;
   }
-  .img3 {
+  .product-item3 {
     grid-column: 3 /4;
     grid-row: 2;
-    width: 150px;
-    height: 150px;
   }
-  .img4 {
+  .product-item4 {
     grid-column: 4 / 5;
     grid-row: 2;
-    width: 150px;
-    height: 150px;
   }
-  .img5 {
+  .product-item5 {
     grid-column: 2 / 3;
     grid-row: 3;
-    width: 150px;
-    height: 150px;
   }
-  .img6 {
+  .product-item6 {
     grid-column: 3 / 4;
     grid-row: 3;
-    width: 150px;
-    height: 150px;
   }
-  .img7 {
+  .product-item7 {
     grid-column: 4 / 5;
     grid-row: 3;
-    width: 150px;
-    height: 150px;
   }
-  .img8 {
+  .product-item8 {
     grid-column: 2 / 3;
     grid-row: 4;
-    width: 150px;
-    height: 150px;
   }
-  .img9 {
+  .product-item9 {
     grid-column: 3 / 4;
     grid-row: 4;
-    width: 150px;
-    height: 150px;
   }
-  .img10 {
+  .product-item10 {
     grid-column: 4 / 5;
     grid-row: 4;
-    width: 150px;
-    height: 150px;
   }
-  .img11 {
+  .product-item11 {
     grid-column: 2 / 3;
     grid-row: 5;
-    width: 150px;
-    height: 150px;
   }
-  .img12 {
+  .product-item12 {
     grid-column: 3 / 4;
     grid-row: 5;
-    width: 150px;
-    height: 150px;
   }
+  .product-item13 {
+    grid-column: 4 / 5;
+    grid-row: 5;
+  }
+  .product-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4_2,
+  .img5,
+  .img6,
+  .img7,
+  .img8,
+  .img9,
+  .img10,
+  .img11,
+  .img12,
   .img13 {
-    grid-column: 4 / 5;
-    grid-row: 6;
     width: 150px;
-    height: 150px;
+    height: 175%;
+    object-fit: cover;
+  }
+  button {
+    font-family: blackletter;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    font-size: 13px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+    padding: 1px 13px;
+    width: 91%;
+    height: 17%;
+  }
+  .img4 {
+    display: none;
+  }
+  span {
+    display: inline-block;
+  }
+  .font-1 {
+    font-family: blackletter;
+    font-size: 11px;
+  }
+  .font-2 {
+    font-family: poly;
+    font-size: 8px;
   }
 }

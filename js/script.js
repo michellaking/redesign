@@ -14,7 +14,7 @@ window.addEventListener("resize", updateImageBackground);
 
 function toggleMenu() {
   var mobileSiteMenu = document.getElementById("burger-menu-dropdown");
-  var burgerMenu = document.getElementById("burger-menu")
+  var burgerMenu = document.getElementById("burger-menu");
   mobileSiteMenu.classList.toggle("show");
   burgerMenu.style.zIndex = "2000"; // fungerer kun på forsiden men ikke på alle de andre sider ??? Lidt hjælp? / massimo
 }
@@ -24,7 +24,6 @@ function alignTextInMain() {
   const mainDiv = document.querySelector('main');
   mainDiv.style.textAlign = 'center';
   mainDiv.style.margin = '0 auto';
-  mainDiv.style.width = '400px';
   mainDiv.style.backgroundSize = 'cover';
   mainDiv.style.backgroundRepeat = 'no-repeat';
   mainDiv.style.backgroundPosition = 'center';
