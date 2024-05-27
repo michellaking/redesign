@@ -224,7 +224,7 @@ footer a {
     left: 50%;
     transform: translate(-50%);
     z-index: 1;
-    padding: 5px 20px;
+    padding: 1px 13px;
     width: 91%;
     height: 17%;
   }
@@ -236,7 +236,7 @@ footer a {
   }
   .font-1 {
     font-family: blackletter;
-    font-size: 13px;
+    font-size: 11px;
   }
   .font-2 {
     font-family: poly;
@@ -340,7 +340,9 @@ footer a {
     left: 50%;
     transform: translate(-50%);
     z-index: 1;
-    padding: 5px 20px;
+    padding: 1px 13px;
+    width: 91%;
+    height: 17%;
   }
   .img4 {
     display: none;
@@ -350,10 +352,10 @@ footer a {
   }
   .font-1 {
     font-family: blackletter;
-    font-size: 13px;
+    font-size: 11px;
   }
   .font-2 {
     font-family: poly;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
