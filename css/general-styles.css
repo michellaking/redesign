@@ -143,6 +143,7 @@ header {
 .links ul li a {
   text-decoration: none;
   color: white;
+  font-family: grenze;
 }
 
 /* Main */
