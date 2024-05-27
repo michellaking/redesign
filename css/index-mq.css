@@ -1,36 +1,37 @@
 @media screen and (min-width: 750px) {
-    header {
-      margin-right: 20px;
-    }
-  
-    main {
-      margin: 20px 40px;
-    }
-  
-    .hero {
-      margin-top: 2em;
-    }
-  
-    #img-container-1,
-    #img-container-2 {
-      margin: 20px 0;
-    }
-  
-    .video-container {
-      margin: 20px 0;
-      padding: 20px;
-    }
-  
-    .button-container {
-      margin: 20px 0;
-    }
-  
-    footer {
-      margin-top: 20px;
-      padding: 10px;
-    }
-  
-    .links {
-      display: flex;
-    }
+  header {
+    margin-right: 20px;
+  }
+
+  main {
+    margin: 20px 40px;
+  }
+
+  #hero {
+    margin-top: 2em;
+    width: 100%;
+  }
+
+  #img-container-1,
+  #img-container-2 {
+    margin: 20px 0;
+  }
+
+  .video-container {
+    margin: 20px 0;
+    padding: 20px;
+  }
+
+  .button-container {
+    margin: 20px 0;
+  }
+
+  footer {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .links {
+    display: flex;
+  }
 }
