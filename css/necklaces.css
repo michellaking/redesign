@@ -225,6 +225,8 @@ footer a {
     transform: translate(-50%);
     z-index: 1;
     padding: 5px 20px;
+    width: 91%;
+    height: 16%;
   }
   .img4_2 {
     display: none;
@@ -238,7 +240,7 @@ footer a {
   }
   .font-2 {
     font-family: poly;
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 @media (min-width: 800px) {
