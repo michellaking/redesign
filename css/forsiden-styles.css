@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 100vh;
+  height: 44vh;
 }
 .mvindue1 {
   grid-column: 1 / 2;
@@ -41,6 +41,9 @@ img {
 }
 video {
   max-width: 70%;
+}
+.text {
+  padding: 30px;
 }
 .button-container {
   width: 100%;
