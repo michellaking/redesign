@@ -43,6 +43,7 @@ video {
   max-width: 70%;
 }
 .text {
+  padding: 30px;
 }
 .button-container {
   width: 100%;
