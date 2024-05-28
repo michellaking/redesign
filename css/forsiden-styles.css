@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 100vh;
+  height: 44vh;
 }
 .mvindue1 {
   grid-column: 1 / 2;
