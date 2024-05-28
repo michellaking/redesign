@@ -42,7 +42,6 @@ header {
 
 .navbar img {
   max-width: 50px;
-  margin-top: 1em;
   margin-right: 1em;
 }
 
@@ -195,7 +194,7 @@ footer a:hover {
 }
 
 .shopping-chart {
-  width: 50px;
+  width: 30px;
 }
 
 /* Fonts */
