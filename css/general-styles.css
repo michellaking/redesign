@@ -42,8 +42,11 @@ header {
 
 .navbar img {
   max-width: 50px;
-  margin-top: 1em;
   margin-right: 1em;
+}
+
+.shopping-chart {
+  width: 30px;
 }
 
 /* Burger menu */
@@ -192,10 +195,6 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-.shopping-chart {
-  width: 50px;
 }
 
 /* Fonts */
