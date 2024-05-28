@@ -5,6 +5,7 @@
   display: grid;
   grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
   grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
 }
 .mvindue1 {
   grid-column: 1 / 2;
@@ -23,7 +24,12 @@
 .necklace_fp {
   grid-column: 3 / 4;
   grid-row: 2 / 4;
-  object-fit: cover;
+  background-image: url(../img/Necklacesindex.webp);
+  width: 100%;
+  height: 71%;
+  z-index: 1;
+  background-size: cover;
+  background-position: 48%;
 }
 .earring_fp {
   grid-column: 4 / 5;
