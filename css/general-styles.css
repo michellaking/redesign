@@ -194,6 +194,10 @@ footer a:hover {
   text-decoration: underline;
 }
 
+.shopping-chart {
+  width: 50px;
+}
+
 /* Fonts */
 @font-face {
   font-family: blackletter;
