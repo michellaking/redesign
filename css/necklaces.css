@@ -9,9 +9,21 @@ button:hover {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+  .vindue1 {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    width: 75px;
+    height: 75px;
+  }
   .product-item1 {
     grid-column: 2 / 3;
     grid-row: 1;
+  }
+  .vindue2 {
+    grid-column: 4 / 5;
+    grid-row: 1;
+    width: 75px;
+    height: 75px;
   }
   .product-item2 {
     grid-column: 3 / 4;
@@ -109,9 +121,7 @@ button:hover {
     color: var(--third-color);
   }
 
-  .img4_2,
-  .vindue1,
-  .vindue2 {
+  .img4_2 {
     display: none;
   }
 
