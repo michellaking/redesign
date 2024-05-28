@@ -26,9 +26,13 @@ header {
 
 .navbar img {
   max-width: 50px;
-  margin-top: 1em;
   margin-right: 1em;
 }
+
+.shopping-chart {
+  width: 30px;
+}
+
 #burger-menu-dropdown {
   display: none;
   flex-direction: column;
@@ -132,7 +136,7 @@ footer a {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   }
   .vindue1 {
     grid-column: 1 / 2;
@@ -260,7 +264,7 @@ footer a {
   .products {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 2px;
   }
 

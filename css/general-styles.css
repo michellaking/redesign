@@ -45,6 +45,10 @@ header {
   margin-right: 1em;
 }
 
+.shopping-chart {
+  width: 30px;
+}
+
 /* Burger menu */
 /* #burger-menu-dropdown {
   display: none;
@@ -191,10 +195,6 @@ footer a {
 
 footer a:hover {
   text-decoration: underline;
-}
-
-.shopping-chart {
-  width: 30px;
 }
 
 /* Fonts */
