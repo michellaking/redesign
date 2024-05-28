@@ -42,6 +42,8 @@ img {
 video {
   max-width: 70%;
 }
+.text {
+}
 .button-container {
   width: 100%;
   display: flex;
