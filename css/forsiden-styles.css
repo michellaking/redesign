@@ -19,11 +19,11 @@
 .bracelet_fp {
   grid-column: 2 / 3;
   grid-row: 3;
-  object-fit: contain;
 }
 .necklace_fp {
   grid-column: 3 / 4;
-  grid-row: 2 / span 2;
+  grid-row: 2 / 4;
+  object-fit: cover;
 }
 .earring_fp {
   grid-column: 4 / 5;
@@ -33,7 +33,7 @@ img {
   max-width: 100%;
 }
 video {
-  max-width: 100%;
+  max-width: 70%;
 }
 .button-container {
   width: 100%;
