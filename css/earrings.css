@@ -220,8 +220,8 @@ footer a {
   }
   button {
     font-family: blackletter;
-    border-radius: 5px;
     border: none;
+    clip-path: inset(0 round 20px);
     background-color: var(--secondary-color);
     color: var(--third-color);
     font-size: 13px;
@@ -232,9 +232,13 @@ footer a {
     transform: translate(-50%);
     z-index: 1;
     padding: 1px 13px;
-    width: 91%;
-    height: 17%;
-    border-radius: 15%;
+    width: 75%;
+    height: 15%;
+    transition-duration: 0.4s;
+  }
+  button:hover {
+    background-color: var(--primary-color);
+    color: var(--third-color);
   }
   .img4_2 {
     display: none;
@@ -351,8 +355,8 @@ footer a {
   }
   button {
     font-family: blackletter;
-    border-radius: 5px;
     border: none;
+    clip-path: inset(0 round 25px);
     background-color: var(--secondary-color);
     color: var(--third-color);
     font-size: 13px;
@@ -363,8 +367,9 @@ footer a {
     transform: translate(-50%);
     z-index: 1;
     padding: 1px 13px;
-    width: 91%;
+    width: 60%;
     height: 17%;
+    transition-duration: 0.4s;
   }
   .img4 {
     display: none;
