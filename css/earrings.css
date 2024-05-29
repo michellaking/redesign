@@ -232,8 +232,8 @@ footer a {
     transform: translate(-50%);
     z-index: 1;
     padding: 1px 13px;
-    width: 75%;
-    height: 15%;
+    width: 50%;
+    height: 20%;
     transition-duration: 0.4s;
   }
   button:hover {
@@ -367,7 +367,7 @@ footer a {
     transform: translate(-50%);
     z-index: 1;
     padding: 1px 13px;
-    width: 60%;
+    width: 40%;
     height: 17%;
     transition-duration: 0.4s;
   }
