@@ -22,7 +22,7 @@ function toggleMenu() {
 // Jeg forsøgte at style det i css men det var ikke som jeg ville have, derfor prøver jeg også her med js. / Massimo
 function alignTextInMain() {
   const mainDiv = document.querySelector('main');
-  mainDiv.style.textAlign = 'center';
+  mainDiv.style.textAlign = 'center'; //Jeg har centreret alt, bortset fra teksten
   mainDiv.style.margin = '0 auto';
   mainDiv.style.backgroundSize = 'cover';
   mainDiv.style.backgroundRepeat = 'no-repeat';

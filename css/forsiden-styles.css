@@ -23,7 +23,7 @@
 }
 .necklace_fp {
   grid-column: 3 / 4;
-  grid-row: 2 / 4;
+  grid-row: 1 / 4;
   background-image: url(../img/Necklacesindex.webp);
   width: 100%;
   height: 101%;
@@ -77,4 +77,8 @@ video {
 
 .shopping-chart {
   width: 30px;
+}
+
+.text {
+  text-align: justify;
 }
